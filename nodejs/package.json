@@ -1,0 +1,19 @@
+{
+  "name": "vonage-otp-service",
+  "version": "1.0.0",
+  "description": "OTP service (WhatsApp -> SMS fallback) using Vonage Verify v2",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node test/otp.test.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
